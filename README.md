@@ -15,7 +15,7 @@
 
 Pipeline hybride Data Engineering & Machine Learning, orchestré avec Airflow, comprenant :
 
-- Un DAG ETL quotidien pour le scraping, la transformation et le chargement des données dans MongoDB et **Elasticsearch  
+- Un DAG ETL quotidien pour le scraping, la transformation et le chargement des données dans MongoDB et Elasticsearch  
 - Un DAG Machine Learning hebdomadaire dédié au réentraînement du modèle NLP basé sur TF-IDF + Logistic Regression  
 - Une API REST exposant le modèle de Machine Learning pour la prédiction en temps réel, ainsi que les données issues d'une base de données MongoDB  
 - Une recherche textuelle optimisée et une visualisation avancée grâce à un index Elasticsearch bien mappé et à des dashboards Kibana interactifs  
